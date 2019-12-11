@@ -98,3 +98,31 @@ main .main-input input
     border:none;
     outline: none;
 }
+
+main .main-input-container:hover
+{
+    box-shadow: 0 1px 6px 0 #dfe1e5;
+    border-color: #dfe1e5;
+}
+
+
+main .main-input .search-icon
+{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+main .main-input .micro-icon
+{
+    background-image: url('http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer; 
+}
